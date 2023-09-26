@@ -12,5 +12,9 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "gapi-client": "^0.0.3",
+    "google-auth-library": "^9.0.0"
   }
 }
