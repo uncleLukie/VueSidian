@@ -25,3 +25,6 @@ logs
 
 # jetbrains
 .idea/
+
+# we don't want this ziperino cappucino
+VueSidian.zip
