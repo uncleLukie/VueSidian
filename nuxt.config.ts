@@ -1,7 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   devtools: { enabled: true },
-  buildModules: [
-    '@nuxt/content'
-  ]
-})
+  modules: ['@nuxt/content'],
+  content: {
+    documentDriven: true
+  }
+}
